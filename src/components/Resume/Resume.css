@@ -1,0 +1,14 @@
+.resume{
+background-color: blueviolet;
+color: white;
+}
+.container{ 
+width: 90%;
+margin: auto;
+}
+.resume__content{
+    width: 100%;
+display: flex;
+flex-direction: column;
+
+}

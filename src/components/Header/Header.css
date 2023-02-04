@@ -1,0 +1,41 @@
+header{
+    width: 100%;
+    background-color: teal;
+    color: white;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+nav{
+display: flex;
+justify-content: right;
+}
+
+ul{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+li{
+    margin: 0 10px;
+
+}
+.navLink{
+padding: 5px 10px;
+text-decoration: none;
+color: white;
+}
