@@ -1,14 +1,21 @@
 .resume{
-background-color: blueviolet;
+background: linear-gradient(to right top, #65dfc9, #6cdbeb);
 color: white;
 }
 .container{ 
 width: 90%;
 margin: auto;
+padding: auto;
 }
 .resume__content{
-    width: 100%;
-display: flex;
-flex-direction: column;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
 
+}
+
+h2 {
+
+    margin: 10px;
+    padding: 10px;
 }

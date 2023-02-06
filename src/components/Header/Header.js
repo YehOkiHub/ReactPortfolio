@@ -1,12 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+const Logo = require('../imgs/Logo.png');
+
 
 const Header = () => {
   return (
     <header>
       <div className="header-container">
-        <div className="logo">Logo</div>
+      <img className="logopic" src={Logo} alt="Logo"/>
+        <div className="logo"> 
+        Made with React
+        </div>
         <nav className="nav">
           <ul>
             <li>

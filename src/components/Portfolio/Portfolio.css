@@ -1,6 +1,16 @@
-.portfolio{
-    background-color: blueviolet;
-    padding: 50px 0;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.portfolio{    
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    padding: 5px 0;
     text-align: center;
     color: white;}
 
@@ -8,14 +18,16 @@
     width: 90%;
     margin: auto;
     display: flex;
-flex-direction: column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow:none;
+    padding: 15px;
 }
 h1{
-    font-size: 3rem;
-    margin: 10;
-    padding: 0;}
+    font-size: 2rem;
+    margin: 20px;
+    padding: 0px;}
 .portfolio__content{
     display: flex;
     flex-wrap: wrap;
@@ -23,9 +35,10 @@ h1{
     justify-content: center;
 }
 .portfolio__item{
-    padding-top: 20px;
-    width: 380px;
-    margin: 10px;
+
+    width: 425px;
+    height: 400px;
+    margin: 5px;
     background-color: white;
     color: black;
     display: flex;
@@ -34,14 +47,26 @@ h1{
     align-items: center;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 45px;  
+    overflow:hidden;
+    
+    
 }
 h3{
-    padding: 10px;
-    font-size: 1.5rem;
+    padding: 3px;
+    font-style: bold;
     margin: 0;
 }
-p{
-padding: 10px;
-margin: 0;
-margin-bottom: 10px;
+
+
+img {
+    width:  auto;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%; 
+    margin-top: 10px
+    
 }
+

@@ -8,64 +8,24 @@ const Resume = () => {
         <h1>Resume</h1>
         <div className="resume__content">
           <div className="resume__item">
-            <h3>Education</h3>
+            <h2>Education</h2>
             <div className="resume__info">
-              <h4>University of California, Los Angeles</h4>
+              <h3>Georgia Institute of Technology · Georgia</h3>
               <p>
-                <b>Master of Science</b>
+                <b>Full-stack Development Bootcamp</b>
               </p>
-              <p>Computer Science</p>
-              <p>2018 - 2020</p>
-            </div>
-            <div className="resume__info">
-              <h4>University of California, Los Angeles</h4>
-              <p>
-                <b>Bachelor of Science</b>
-              </p>
-              <p>Computer Science</p>
-              <p>2014 - 2018</p>
-            </div>
+              <p>Graduation year:</p>
+              <p>Aug 2022 - Feb2023</p>
+            </div>           
           </div>
           <div className="resume__item">
-            <h3>Experience</h3>
-            <div className="resume__info">
-              <h4>Software Engineer</h4>
-              <p>
-                <b>Google</b>
-              </p>
-              <p>2018 - 2020</p>
-            </div>
-            <div className="resume__info">
-              <h4>Software Engineer</h4>
-              <p>
-                <b>Facebook</b>
-              </p>
-              <p>2018 - 2020</p>
-            </div>
-            <div className="resume__info">
-              <h4>Software Engineer</h4>
-              <p>
-                <b>Amazon</b>
-              </p>
-              <p>2018 - 2020</p>
-            </div>
-          </div>
-          <div className="resume__item">
-            <h3>Skills</h3>
+            <h2>Skills</h2>
             <div className="resume__info">
               <h4>Programming Languages</h4>
               <p>
-                <b>Python</b>
+                <b>Javascript</b>
               </p>
-              <p>
-                <b>Java</b>
-              </p>
-              <p>
-                <b>C++</b>
-              </p>
-              <p>
-                <b>JavaScript</b>
-              </p>
+             
             </div>
             <div className="resume__info">
               <h4>Web Development</h4>

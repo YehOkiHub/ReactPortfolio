@@ -1,5 +1,5 @@
 .about{
-    width: 90%;
+    width: 100%;
     padding: 0 5%;
     height: 70vh;
     display: flex;
@@ -7,11 +7,15 @@
     justify-content: center;
     margin: auto;
     color: white;
-   background-color:  blueviolet;
+    background: linear-gradient(to right top, #914fc1, #802ba7);
 }
 .aboutImg{
 
     width: 150px;
     height: 150px;
     border-radius: 100%;
+}
+
+p {
+    font-size: 20px;
 }

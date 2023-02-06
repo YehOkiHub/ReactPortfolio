@@ -14,10 +14,14 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.logo{
-    width: 200px;
+.logo{    
     font-size: 2rem;
     font-weight: bold;
+    position:relative; 
+    float:left;
+    margin-right: 55%;
+    
+    
 }
 nav{
 display: flex;
@@ -38,4 +42,23 @@ li{
 padding: 5px 10px;
 text-decoration: none;
 color: white;
+font-size: 22.5px;;
 }
+.navLink:hover {
+    background-color: rgb(126, 227, 234);
+    border-radius: 10px;
+
+}
+
+.portfolio__item {
+    max-width: fit-content;
+    max-height: fit-content;
+
+
+}
+
+.logopic {
+    max-width: 40px;
+    max-height: 40px;
+}
+

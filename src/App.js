@@ -12,7 +12,6 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<About />} />
-        {/* <Route path="/about" component={About} /> */}
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />

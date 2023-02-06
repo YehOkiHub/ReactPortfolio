@@ -1,11 +1,13 @@
 .contact{
-background-color: blueviolet;
+    
+background: linear-gradient(to right top, #65dfc9, #6cdbeb);
 color: white;
 }
 
 .container{
 width: 90%;
 margin: auto;
+padding: 50px;
 }
 
 form{
@@ -23,4 +25,8 @@ flex-direction: column;
 
 button{
 width: 100px;
+}
+
+h1 {
+    margin-top: 20px;
 }
