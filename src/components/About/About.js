@@ -5,10 +5,12 @@ const logo = require('../../components/imgs/me.jpg');
 const About = () => {
   return (
     <div className="about">
-      <h2>About Me</h2>
+      
       <div>
+      <h2 className="abouttitle">About Me</h2>
         <img className="aboutImg" src={logo} alt="me" />
       </div>
+      
       <p>
       As a full-stack developer, I have developed and deployed several web applications using HTML, CSS, JavaScript, Node.js, MongoDB, and React.
 

@@ -15,20 +15,15 @@ const Resume = () => {
                 <b>Full-stack Development Bootcamp</b>
               </p>
               <p>Graduation year:</p>
-              <p>Aug 2022 - Feb2023</p>
+              <p>Feb 2023</p>
             </div>           
           </div>
           <div className="resume__item">
-            <h2>Skills</h2>
-            <div className="resume__info">
-              <h4>Programming Languages</h4>
+          <div className="resume__info">
+              <h2>Web Development Skills</h2>
               <p>
                 <b>Javascript</b>
               </p>
-             
-            </div>
-            <div className="resume__info">
-              <h4>Web Development</h4>
               <p>
                 <b>React</b>
               </p>
@@ -44,9 +39,15 @@ const Resume = () => {
               <p>
                 <b>CSS</b>
               </p>
+              <p>
+                <b>Heroku</b>
+              </p>
+              <p>
+                <b>Bootstrap</b>
+              </p>
             </div>
             <div className="resume__info">
-              <h4>Database</h4>
+              <h2>Database</h2>
               <p>
                 <b>MySQL</b>
               </p>

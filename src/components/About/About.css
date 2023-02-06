@@ -1,6 +1,6 @@
 .about{
     width: 100%;
-    padding: 0 5%;
+    padding: 2px 5%;
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
     margin: auto;
     color: white;
     background: linear-gradient(to right top, #914fc1, #802ba7);
+    
 }
 .aboutImg{
 
@@ -17,5 +18,11 @@
 }
 
 p {
+    margin-top: 20px;
+    padding: 2px;
     font-size: 20px;
+}
+
+.abouttitle{
+    color:white;
 }
