@@ -5,56 +5,52 @@ const Resume = () => {
   return (
     <section className="resume">
       <div className="container">
-        <h1>Resume</h1>
+        <h1>Education and Certificates</h1>
         <div className="resume__content">
           <div className="resume__item">
-            <h2>Education</h2>
             <div className="resume__info">
-              <h3>Georgia Institute of Technology · Georgia</h3>
-              <p>
-                <b>Full-stack Development Bootcamp</b>
-              </p>
-              <p>Graduation year:</p>
-              <p>Feb 2023</p>
-            </div>           
+              <div className="item1">
+                <h2>Georgia Institute of Technology · Georgia</h2>
+                <p>Full-stack Coding Bootcamp: Feb 2023</p>
+              </div>
+
+              <div className="item2">
+                <h2>Codeacademy · Online Course</h2>
+                <p>Javascript completion Certificate: Jan 2023</p>
+              </div>
+
+              <div className="item3">
+                <h2>Skillcrush · Online Course</h2>
+
+                <p>Javascript completion Certificate: June 2023</p>
+              </div>
+            </div>
           </div>
           <div className="resume__item">
-          <div className="resume__info">
-              <h2>Web Development Skills</h2>
-              <p>
-                <b>Javascript</b>
-              </p>
-              <p>
-                <b>React</b>
-              </p>
-              <p>
-                <b>Node.js</b>
-              </p>
-              <p>
-                <b>Express</b>
-              </p>
-              <p>
-                <b>HTML</b>
-              </p>
-              <p>
-                <b>CSS</b>
-              </p>
-              <p>
-                <b>Heroku</b>
-              </p>
-              <p>
-                <b>Bootstrap</b>
-              </p>
-            </div>
-            <div className="resume__info">
-              <h2>Database</h2>
-              <p>
-                <b>MySQL</b>
-              </p>
-              <p>
-                <b>MongoDB</b>
-              </p>
-            </div>
+            <div className="resume__skills">
+              <div>
+              <h2>Skills</h2>
+              </div>
+
+              <div>
+              <ul className="skill_list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+                <li>GitHub</li>
+                <li>Express</li>
+                <li>React</li>
+                <li>Node</li>
+                <li>MVC</li>
+                <li>Handlebars</li>
+                <li>Bulma</li>
+                <li>Bootstrap</li>         
+              </ul>
+              </div>
+
+            </div>            
           </div>
         </div>
       </div>

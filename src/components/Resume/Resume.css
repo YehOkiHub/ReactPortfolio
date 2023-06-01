@@ -1,11 +1,18 @@
 .resume{
-background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+background: linear-gradient(to right top, #737c7a, #6cdbeb);
 color: white;
 }
 .container{ 
 width: 90%;
 margin: auto;
 padding: auto;
+}
+
+.resume__info {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
 }
 .resume__content{
     width: 90%;
@@ -14,9 +21,35 @@ padding: auto;
 
 }
 
-h2 {
+.resume__skills{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    flex-wrap:wrap;
+    font-size: 25px;  
+    
+}
 
+h1 {
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 40px;
     color: white;
-    margin: 10px;
+    margin: 10px; 
     padding: 10px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.skill_list {
+
+    display:flex;
+    gap: 40px;
+
 }
