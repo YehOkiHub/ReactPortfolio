@@ -11,7 +11,7 @@ const About = () => {
       </div>
 
       <p>
-        I'm Jeff, This is my personal portfolio.
+        I'm Jeff, I'm an aspiring Web Developer 
       </p>
     </div>
   );
