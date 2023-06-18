@@ -26,7 +26,7 @@ const Portfolio = () => {
           </div>
           <div className="portfolio__item">
             <img src={pokeClash} alt="portfolio" />
-            <Link className="navLink" to={"https://github.com/JohnKersey2/Pokemon-Clash"}>
+            <Link className="navLink" to={"https://github.com/YehOkiHub/Pokemon-Clash"}>
             <h2>Pokemon Clash!</h2>
               </Link>
             
