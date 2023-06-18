@@ -1,27 +1,31 @@
 .contact{
     
-background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+background: linear-gradient(to right top, #123acb, #6cdbeb);
 color: white;
 }
 
 .container{
-width: 90%;
-margin: auto;
+width: 80%;
+margin: auto; 
 padding: 50px;
+
+
 }
 
-form{
-width:40%;
+/* form{
+width:50%;
 padding: 20px;
 display: flex;
 flex-direction: column;
+
 }
 
 .form-group{
 margin: 10px 0;
 display: flex;
 flex-direction: column;
-}
+
+} */
 
 button{
 width: 100px;
@@ -45,3 +49,33 @@ button {
    
 
 }
+
+.contact-card {
+
+    display:flex;
+    align-items: center;
+    
+
+}
+
+.contact-card img{
+    height: 75px;
+    width: 75px;
+}
+
+.email-inv {
+    font-size: 25px;
+    margin-left:20px;
+    width: 80%;
+    
+    
+}
+
+.contact-info {
+    font-size: 25px;
+    display:column;
+
+
+
+}
+

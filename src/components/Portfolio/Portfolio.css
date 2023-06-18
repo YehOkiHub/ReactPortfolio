@@ -3,7 +3,7 @@ body {
 }
 
 .portfolio{    
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    background: linear-gradient(to right top, #123acb, #6cdbeb);
     padding: 5px 0;
     text-align: center;
     color: white;}
@@ -40,7 +40,7 @@ h2 {
 .portfolio__item{
 
     width: 425px;
-    height: 400px;
+    height: 375px;
     margin: 5px;
     background-color: white;
     color: black;

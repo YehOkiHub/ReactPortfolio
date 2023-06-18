@@ -4,12 +4,15 @@ height: 20vh;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #333;
+background-color: #0d0929;
 color: white;
 }
 .socialItemLink{
     padding: 10px;
     font-size: 70px;
+    text-decoration: none ; 
+    color:white;
+    
 }
 
 .socialItemLink:hover{

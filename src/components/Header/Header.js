@@ -1,16 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-const Logo = require('../imgs/Logo.png');
+// const Logo = require('../imgs/Logo.png');
 
 
 const Header = () => {
   return (
     <header>
-      <div className="header-container">
-      <img className="logopic" src={Logo} alt="Logo"/>
+      <div className="header-container">      
         <div className="logo"> 
-        Made with React
+        Chien Ting Yeh
         </div>
         <nav className="nav">
           <ul>
