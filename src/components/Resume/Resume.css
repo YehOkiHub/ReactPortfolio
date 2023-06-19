@@ -53,3 +53,9 @@ p {
     gap: 40px;
 
 }
+
+.item1 {
+    display: flex;
+    font-size: 25px;
+
+}
