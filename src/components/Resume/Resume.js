@@ -12,7 +12,7 @@ const Resume = () => {
               <div className="item1">
                 <h2>Teletech IT Support Specialist 2012-2019</h2>
                   <h3>Served customers from China and Taiwan in a High Paced environment for a large computer peripheral company. 
-                   Troubleshooted Gaming software and Salesforce CRM as well as troubleshooted for hardware issues </h3>
+                   Troubleshooted Gaming software and hardware components as well as used Salesforce CRM to manage relationships with customers on a case to case basis </h3>
 
                   {/* <ul>
                     <li> Interacted with an Average of 70 Customers a day</li>
