@@ -5,16 +5,16 @@ const Resume = () => {
   return (
     <section className="resume">
       <div className="container">
-        <h1>Work</h1>
+        <h1>Resume</h1>
         <div className="resume__content">
           <div className="resume__item">
             <div className="resume__info">
               <div className="item1">
                 <h2>Teletech IT Support Specialist 2012-2019</h2>
-                  {/* <h3>Served customers from China and Taiwan in a High Paced environment for a large computer peripheral company. 
-                  Made sure hardware and software components were running smoothly </h3> */}
+                  <h3>Served customers from China and Taiwan in a High Paced environment for a large computer peripheral company. 
+                   Troubleshooted Gaming software and Salesforce CRM as well as troubleshooted for hardware issues </h3>
 
-                  <ul>
+                  {/* <ul>
                     <li> Interacted with an Average of 70 Customers a day</li>
                     <li>Collaborated with Teams in China and Taiwan to provide a
                   smoother customer experience.</li>
@@ -24,7 +24,7 @@ const Resume = () => {
                   new hires in familiarizing themselves with salesforce as well
                   as the company’s gaming software</li>
 
-                  </ul>
+                  </ul> */}
                   
                 
               </div>

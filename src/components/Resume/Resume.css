@@ -55,7 +55,12 @@ p {
 }
 
 .item1 {
-    display: flex;
+    display: column;    
     font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    
+
 
 }
+
